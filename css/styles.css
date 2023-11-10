@@ -340,6 +340,117 @@ header>.container {
 
 /* ================== /SECTION_2 ================== */
 
+/* ================== SECTION_3 ================== */
+.team {
+    background-color: var(--light);
+    padding: 120px 0;
+}
+
+.team-title {
+    margin-bottom: 72px;
+    text-align: center;
+
+    font-size: 36px;
+    line-height: 1.11;
+
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--dark);
+}
+
+.team-conrainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+}
+
+.team-card {
+    width: calc((100% - 72px) / 4);
+
+    background-color: var(--white);
+    border-radius: 0px 0px 4px 4px;
+    overflow: hidden;
+
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
+
+    text-align: center;
+}
+
+.team-card img {
+    display: block;
+}
+
+.team-card-container {
+    padding: 32px 0;
+
+}
+
+.team-card-name {
+    margin-bottom: 8px;
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+
+    color: var(--dark);
+}
+
+.team-card-subtitle {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+
+    color: var(--text);
+}
+
+.team-svg-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.team-svg {
+    display: flex;
+    justify-content: center;
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--primary-brand);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-svg-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-brand);
+    border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-svg-link:hover,
+.team-svg-link:focus {
+    background-color: var(--ocean);
+}
+
+.team-svg-social {
+    fill: var(--light);
+}
+
+/* ================== /SECTION_3 ================== */
+
 /* ================== /MODAL MOBILE STYLE ================== */
 
 
@@ -443,7 +554,7 @@ header>.container {
     /* ==================   SECTION_1  ================== */
 
     .title {
-        max-width: 768px;
+        max-width: 1158px;
         margin: 0 auto;
         text-align: center;
         padding: 112px 0;
