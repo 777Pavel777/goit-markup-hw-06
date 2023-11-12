@@ -39,7 +39,7 @@
           </li>
         </ul>
       </nav>
-      <button class="mobile-open-burger-btn" type="button">
+      <button class="mobile-open-burger-btn " type="button" id="is-open-mobile">
         <svg class="mobile-open-btn-icon" width="24" height="24">
           <use href="./images/icons.svg#icon-burger"></use>
         </svg>
@@ -651,87 +651,89 @@
 
   <!-- ======================== MOBILE MODAL BURGER ======================== -->
 
-  <div class="mobile-backdrop is-open-mobile">
+  <div class="mobile-backdrop" id="mobile-form">
     <div class="mobile-modal-container">
-      <div class="mobile-close-button">
-        <button class="mobile-close-btn" type="button">
-          <svg class="modal--mobile-checkbox-svg" width="8" height="8">
-            <use href="./images/icons.svg#icon-mobile-close-btn"></use>
-          </svg>
-        </button>
-      </div>
-      <nav class="mobile-modal-hero-nav">
-        <ul class="mobile-modal-hero-menu">
-          <li class="mobile-modal-hero-link">
-            <a class="mobile-modal-nav-link active-mobile" href="./index.html">Studio</a>
-          </li>
-          <li class="mobile-modal-hero-link">
-            <a class="mobile-modal-nav-link" href="">Portfolio</a>
-          </li>
-          <li class="mobile-modal-hero-link">
-            <a class="mobile-modal-nav-link" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
+      <form>
+        <div class="mobile-close-button">
+          <button class="mobile-close-btn" type="button" id="mobile-close-button">
+            <svg class="modal--mobile-checkbox-svg" width="8" height="8">
+              <use href="./images/icons.svg#icon-mobile-close-btn"></use>
+            </svg>
+          </button>
+        </div>
+        <nav class="mobile-modal-hero-nav">
+          <ul class="mobile-modal-hero-menu">
+            <li class="mobile-modal-hero-link">
+              <a class="mobile-modal-nav-link active-mobile" href="./index.html">Studio</a>
+            </li>
+            <li class="mobile-modal-hero-link">
+              <a class="mobile-modal-nav-link" href="">Portfolio</a>
+            </li>
+            <li class="mobile-modal-hero-link">
+              <a class="mobile-modal-nav-link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
 
-      <address class="mobile-hero-contacts">
-        <ul class="mobile-hero-contacts-link">
-          <li class="mobile-hero-item">
-            <a class="mobile-contacts-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
-          </li>
-          <li class="mobile-hero-item">
-            <a class="mobile-contacts-link" href="mailto:info@devstudio.com"> <span>info@devstudio.com</span></a>
-          </li>
-        </ul>
-      </address>
+        <address class="mobile-hero-contacts">
+          <ul class="mobile-hero-contacts-link">
+            <li class="mobile-hero-item">
+              <a class="mobile-contacts-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+            </li>
+            <li class="mobile-hero-item">
+              <a class="mobile-contacts-link" href="mailto:info@devstudio.com"> <span>info@devstudio.com</span></a>
+            </li>
+          </ul>
+        </address>
 
-      <div class="mobile-social-svg-link">
-        <ul class="mobile-svg-container">
+        <div class="mobile-social-svg-link">
+          <ul class="mobile-svg-container">
 
-          <li class="mobile-svg">
-            <a class="mobile-svg-link" href="">
-              <svg class="mobile-svg-social" width="16" height="16">
-                <use href="./images/icons.svg#icon-instagram">
-                </use>
-              </svg>
-            </a>
-          </li>
+            <li class="mobile-svg">
+              <a class="mobile-svg-link" href="">
+                <svg class="mobile-svg-social" width="16" height="16">
+                  <use href="./images/icons.svg#icon-instagram">
+                  </use>
+                </svg>
+              </a>
+            </li>
 
-          <li class="mobile-svg">
+            <li class="mobile-svg">
 
-            <a class="mobile-svg-link" href="">
-              <svg class="mobile-svg-social" width="16" height="16">
-                <use href="./images/icons.svg#icon-twitter">
-                </use>
-              </svg>
-            </a>
-          </li>
+              <a class="mobile-svg-link" href="">
+                <svg class="mobile-svg-social" width="16" height="16">
+                  <use href="./images/icons.svg#icon-twitter">
+                  </use>
+                </svg>
+              </a>
+            </li>
 
-          <li class="mobile-svg">
+            <li class="mobile-svg">
 
-            <a class="mobile-svg-link" href="">
-              <svg class="mobile-svg-social" width="16" height="16">
-                <use href="./images/icons.svg#icon-facebook">
-                </use>
-              </svg>
-            </a>
-          </li>
+              <a class="mobile-svg-link" href="">
+                <svg class="mobile-svg-social" width="16" height="16">
+                  <use href="./images/icons.svg#icon-facebook">
+                  </use>
+                </svg>
+              </a>
+            </li>
 
-          <li class="mobile-svg">
+            <li class="mobile-svg">
 
-            <a class="mobile-svg-link" href="">
-              <svg class="mobile-svg-social" width="16" height="16">
-                <use href="./images/icons.svg#icon-linkedin">
-                </use>
-              </svg>
-            </a>
-          </li>
+              <a class="mobile-svg-link" href="">
+                <svg class="mobile-svg-social" width="16" height="16">
+                  <use href="./images/icons.svg#icon-linkedin">
+                  </use>
+                </svg>
+              </a>
+            </li>
 
-        </ul>
-      </div>
+          </ul>
+        </div>
+      </form>
     </div>
   </div>
-  <script src="./scripts/form.js"></script>
+  <script src="./JS/form.js"></script>
 </body>
 
 </html>

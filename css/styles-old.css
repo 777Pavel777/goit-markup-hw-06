@@ -935,21 +935,3 @@ header>.container {
   background-color: #404bbf;
   border: none;
 }
-
-/* ============================== MOBILE ============================== */
-
-@media screen and (min-width:480px) {}
-
-/* ============================== TABLET ============================== */
-
-@media screen and (min-width:768px) {
-  .container {
-    max-width: 1158px;
-    padding: 0 16px;
-    margin: 0 auto;
-  }
-}
-
-/* ============================== DESKTOP ============================== */
-
-@media screen and (min-width:1159px) {}

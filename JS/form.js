@@ -1,3 +1,5 @@
+/* ================== MODAL DESKTOP ================== */
+
 const MODAL_ACTIVE_CLASS_NAME = 'is-open';
 
 const formModal = document.querySelector('#form-modal');
@@ -47,3 +49,20 @@ form.addEventListener('submit', e => {
     })
     .catch(error => console.log('Sending form failed'));
 });
+
+/* ================== MODAL MOBILE BURGER ================== */
+
+(() => {
+  const refs = {
+    openModalBtn: document.querySelector('#is-open-mobile'),
+    closeModalBtn: document.querySelector('#mobile-close-button'),
+    modal: document.querySelector('#mobile-form'),
+  };
+
+  refs.openModalBtn.addEventListener('click', toggleModal);
+  refs.closeModalBtn.addEventListener('click', toggleModal);
+
+  function toggleModal() {
+    refs.modal.classList.toggle('is-open-mobile');
+  }
+})();
