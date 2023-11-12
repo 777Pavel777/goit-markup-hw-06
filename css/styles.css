@@ -664,7 +664,6 @@ header>.container {
     top: 40%;
     left: 50%;
     width: 288px;
-    min-height: 623px;
     padding: 72px 24px 24px 24px;
 
     display: flex;
