@@ -55,7 +55,7 @@ form.addEventListener('submit', e => {
 (() => {
   const refs = {
     openModalBtn: document.querySelector('#is-open-mobile'),
-    closeModalBtn: document.querySelector('#mobile-close-button'),
+    closeModalBtn: document.querySelector('#mobile-close-btn'),
     modal: document.querySelector('#mobile-form'),
   };
 
