@@ -1399,15 +1399,17 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
     .footer {
         background-color: var(--dark);
         padding: 100px 0;
-        padding: 0;
-        row-gap: 0;
-        column-gap: 0;
     }
 
     .footer>.container {
         display: flex;
         align-items: baseline;
         flex-direction: row;
+        justify-content: center;
+        flex-wrap: nowrap;
+        padding: 0;
+        row-gap: 0;
+        column-gap: 0;
     }
 
     .footer-box {
