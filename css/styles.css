@@ -1204,7 +1204,6 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
         max-width: 1158px;
     }
 
-
     header>.container {
         max-width: 1158px;
         height: 72px;
@@ -1292,6 +1291,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
 
     .about-item {
         width: calc((100% - 72px) / 4);
+        margin-bottom: 0;
     }
 
     .about-svg-container {
@@ -1403,6 +1403,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
         flex-wrap: nowrap;
         row-gap: 0;
         column-gap: 0;
+        margin: 0 auto;
         padding: 0 15px;
     }
 
@@ -1412,7 +1413,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
 
 
     .footer-subscribe {
-        margin-left: 80px;
+        margin-left: auto;
     }
 
     .footer-search-container {
