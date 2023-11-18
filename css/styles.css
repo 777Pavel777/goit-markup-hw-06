@@ -267,7 +267,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 320px) {
 }
 
 .title-text {
-    max-width: 224px;
+    max-width: 288px;
     margin: 0 auto;
     margin-bottom: 72px;
 
